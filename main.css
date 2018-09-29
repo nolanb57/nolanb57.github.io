@@ -29,6 +29,7 @@ p {
 .accomplishments {
     background-color: gray;
     font-size: 20px;
+    max-width: 200px;
 }
 
 #name {
