@@ -1,109 +1,116 @@
 <!DOCTYPE html>
 <html>
+<title>Nolan Birmingham</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-    <div class="top">
-        <div class="bar white wide padding card">
-            <a href="#home" class="bar-item button"><b>NB</b> Nolan Birmingham</a>
-            <!-- Float links to the right. Hide them on small screens -->
-            <div class="right hide-small">
-                <a href="#accomplishments" class="bar-item button">Accomplishments</a>
-                <a href="#aboutme" class="bar-item button">About</a>
-                <a href="#contact" class="bar-item button">Contact</a>
-            </div>
-        </div>  
-    </div>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Author" content="Nolan Birmingham">
-        <title>Nolan Birmingham</title>
-        <meta name="description" content="A Portfolio for the Brilliant Nolan Birmingham">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    
-        <h1 id="name">
-            <canvas id="Nolan" width="265" height="82" style="border:1px solid #d3d3d3;">
-            Your browser does not support the HTML5 canvas tag.</canvas>
 
-    <script>
-        var c = document.getElementById("Nolan");
-        var ctx = c.getContext("2d");
-        ctx.font = "30px Arial";
-        ctx.strokeStyle = 'Blue';
-        ctx.strokeText("Nolan Birmingham",10,50);
-        </script>
-        </h1>
-            <h2>
-                About Me:
-                <h2/>
-                
-            <p class="About_Me">
-                <image width = "200" height = "300" src = "fgcu.svg" alt = "FGCU Eagles"><br/>
-                19 Year old student currently at Florida Gulf Coast University.<br/>
-                From Naples, Florida I love all sports but mainly baseball and football.<br/>
-                <a href="https://www.instagram.com/nolanbirmingham/">Instagram</a><br/>
-                <br/>
-                <img style="border:5px" src="https://gyazo.com/2e04690d0d27b4897983aab66ea86acb.png" alt="Me on a Large Inflatable Couch">
-            </p>
-            <p class="accomplishments">
-                School Accomplishments:
-                </p>
-                <ul>
-                    <li>High School Diploma</li>
-                    <li>COP 3223C</li>
-                    <li>MAC 1147</li>
-                    <li><a href="https://www.codecademy.com/users/nolanb57/achievements">Codecademy</a></li>
-                </ul>
-        <img style="border:5px" src="https://gyazo.com/d1284aa7efbc46b43e92edb8e43c4698.png" alt="Let Your Results Do the Talking">
-                
-            <object width="400" height="400" data="Fields_Report.pdf" type="application/pdf">
-                Your browser does not support pdfs, <a href="filename.pdf">click here to
-                download the file.</a>
-            </object>
-                <h3 class = "aboutme">
-                    Hobbies:
-                </h3>
-                <p class = "About Me">Some of my hobbies include video games, going to car shows,<br/>
-                    playing sports, riding motorcycles, and I currently work on a golf course.<br/>
-                    <video width="320" height="240" controls>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>NB</b> Nolan Birmingham</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>NB</b></span> <span class="w3-hide-small w3-text-light-grey">Nolan Birmingham</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">School Accomplishments</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">High School Diploma</div>
+        <img src="/w3images/house5.jpg" alt="Diploma" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">COP 3223C</div>
+        <img src="/w3images/house2.jpg" alt="Programming Class" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">MAC 1147</div>
+        <img src="/w3images/house3.jpg" alt="Math Class" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Codecademy</div>
+        <img src="/w3images/house4.jpg" alt="Programming Courses" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>19 Year old student currently at Florida Gulf Coast University.
+		From Naples, Florida I love all sports but mainly baseball and football.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="Nolan" style="width:100%">
+      <h3>Nolan Birmingham</h3>
+      <p class="w3-opacity">Sophomore</p>
+      <p>Sophomore at FGCU working towards a degree in computer information systems.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    
+
+  <!-- Media -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Media</h3>
+    <p>Video of my motorcycle and my favorite song!</p>
+    	<p><video width="320" height="240" controls>
                     <source src="motorcycle.mp4" type="video/mp4">
                     <source src="motorcycle.ogg" type="video/ogg">
                     Your browser does not support video tag.
-                    </video>
-                </p>
-                <h4>
-                    Favorite Song:
-                </h4>
-                <p>
-                    My favorite song is "Lean Wit Me" By Juice WRLD<br/>
-                    <audio controls>
+        </video></br>
+        <audio controls>
                     <source src="lean_wit_me.mp3" type="audio/mpeg">
                     <source src="lean_wit_me.ogg" type="audio/ogg">
                     Your browser does not support the audio element.
-                    </audio>
-                </p>
-    </body>
+        </audio></p>
+  </div>
+  
+<!-- Fields Report -->
+ <object width="400" height="400" data="Fields_Report.pdf" type="application/pdf">
+                Your browser does not support pdfs, <a href="filename.pdf">click here to
+                download the file.</a>
+            </object>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by Nolan</a></p>
+</footer>
+
+</body>
 </html>
-<!--
-
-    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
-    [::::::::::::::      ::::::::::::::]
-    [::::::::::::::      ::::::::::::::]
-    [::::::[[[[[[[:      :]]]]]]]::::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[      Birmingweb      ]:::::]
-    [:::::[  A website by Nolan  ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [:::::[                      ]:::::]
-    [::::::[[[[[[[:      :]]]]]]]::::::]
-    [::::::::::::::      ::::::::::::::]
-    [::::::::::::::      ::::::::::::::]
-    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
-
--->
