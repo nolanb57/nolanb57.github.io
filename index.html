@@ -184,37 +184,7 @@ function caesarCipher() {
 
 </script>
 		
-<h1>Caesar Cipher</h1>
 
-<p>Input:</p>
-
-<input id="in">
-
-<button type="button" onclick="myFunction()">Submit</button>
-
-<p id="out"></p>
-
-<script>
-function myFunction() {
-    var inVar, outVar;
-
-    // Input
-    inVar = document.getElementById("in").value;
-    
-    // Processing
-    outVar = "";
-	var position = 0;
-	while (position < 3) {
-		outVar = outVar + String.fromCharCode(inVar.charCodeAt(position) - 3);
-        position = position + 1;
-	}
-
-	// Output
-    document.getElementById("out").innerHTML = outVar;
-}
-</script>
-
-		
 
 <!-- Usability -->
 	<div class="w3-container w3-padding-32 w3-right-align{text-align:right!important}" id="projects">
