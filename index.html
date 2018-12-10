@@ -66,10 +66,32 @@
   <!-- About Section - small about me section -->
 
 
-  <div class="w3-row-padding-32">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="grad.jpg" alt="Nolan" style="width:100%">
-      <h3>Nolan Birmingham</h3>
+  	<div class="w3-row-padding-32">
+    	<div class="w3-col l3 m6 w3-margin-bottom">
+      	<img src="grad.jpg" alt="Nolan" style="width:100%">
+          <style>
+      	body {
+        margin: 0px;
+        padding: 0px;
+      	}
+    	</style>
+  	<canvas id="myCanvas" width="300" height="300"></canvas>
+
+    	<script>
+      	var canvas = document.getElementById("myCanvas");
+      	var ctx = canvas.getContext('2d');
+      	ctx.shadowColor = "rgb(190, 190, 190)";
+      	ctx.shadowOffsetX = 10;
+      	ctx.shadowOffsetY = 10
+      	ctx.shadowBlur = 10;
+      	ctx.font = "50px arial";
+      	var gradient = ctx.createLinearGradient(0, 0, 150, 100);
+      	gradient.addColorStop(0, "rgb(255, 0, 128)");
+      	gradient.addColorStop(1, "rgb(255, 153, 51)");
+      	ctx.fillStyle = gradient;
+      	ctx.fillText("Text Effects", 10, 50);
+    	</script>    
+
       <p>Sophomore at FGCU working towards a degree in computer information systems.</p>
 	<img src="fgcu.svg" alt="FGCU Logo Drawn by Me.">
       
