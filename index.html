@@ -157,18 +157,18 @@
     		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Caesar Cipher</h3>
 	<p>Input:</p>
 
-	<input id="in">
+	<input id="input">
 
 	<button type="button" onclick="caesarCipher()">Submit</button>
 
-	<p id="out"></p>
+	<p id="return"></p>
 
 <script>	
 function caesarCipher() {
     var text, shift;
 
     
-    text = document.getElementById("in").value;
+    text = document.getElementById("input").value;
     
     
     shift = "";
@@ -179,7 +179,7 @@ function caesarCipher() {
 	}
 	
 	
-    return document.getElementById("out").innerHTML = shift;
+    return document.getElementById("return").innerHTML = shift;
 };
 
 </script>
