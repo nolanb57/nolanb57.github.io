@@ -155,35 +155,34 @@
 <!-- Caesar Cipher: Input Letters to have them encrypted -->
 	<div class="w3-container w3-padding-32" id="programs">
     		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Caesar Cipher</h3>
-	<p>Input:</p>
+<p>Input:</p>
 
-	<input id="input">
+	<input id="in">
 
-	<button type="button" onclick="caesarCipher("input")">Submit</button>
+	<button type="button" onclick="caesarCipher()">Submit</button>
 
-	<p id="return"></p>
+	<p id="out"></p>
 
 <script>	
 function caesarCipher() {
     var text, shift;
 
     
-    text = document.getElementById("input").value;
+    text = document.getElementById("in").value;
     
     
     shift = "";
 	var i = 0;
-	if(i = 0; i < 2 ; i++) 
+	while(i < 3) 
 	{
-		shift = shift + String.fromCharCode(text.charCodeAt(i) - 2);
+		shift = shift + String.fromCharCode(text.charCodeAt(i) - 3);
+        i = i + 1;
 	}
 	
 	
-    document.getElementById("return").innerHTML = shift;
+    document.getElementById("out").innerHTML = shift;
 }
 </script>
-		
-<p id="return">n</p>
 
 <!-- Usability -->
 	<div class="w3-container w3-padding-32 w3-right-align{text-align:right!important}" id="projects">
