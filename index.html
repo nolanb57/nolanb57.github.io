@@ -173,7 +173,7 @@ function caesarCipher() {
     
     shift = "";
 	var i = 0;
-	while(i < 3) 
+	while(i < text.length) 
 	{
 		shift = shift + String.fromCharCode(text.charCodeAt(i) - 3);
         i = i + 1;
